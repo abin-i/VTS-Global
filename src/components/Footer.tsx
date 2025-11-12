@@ -76,7 +76,7 @@ const Footer = () => {
               <li className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <span className="text-sm text-muted-foreground">
-                  123 Maritime Boulevard, Port City, PC 12345
+                  10 JALAN BESAR, #03-04, SIM LIM TOWER, SINGAPORE 208787
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -85,12 +85,18 @@ const Footer = () => {
                   +1 (234) 567-890
                 </a>
               </li>
-              <li className="flex items-center space-x-3">
+                <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-primary flex-shrink-0" />
-                <a href="mailto:info@vtsglobal.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  info@vtsglobal.com
+                <a href="mailto:Hr@vtsglobal.com.sg" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  Hr@vtsglobal.com.sg
                 </a>
-              </li>
+                </li>
+                <li className="flex items-center space-x-3">
+                <Mail className="h-5 w-5 text-primary flex-shrink-0" />
+                <a href="mailto:Sales@vtsglobal.com.sg" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  Sales@vtsglobal.com.sg
+                </a>
+                </li>
             </ul>
           </div>
         </div>
