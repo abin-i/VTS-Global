@@ -1,73 +1,75 @@
-# Welcome to your Lovable project
+# 🌊 VTS Global — Marine & Logistics Website
 
-## Project info
+## 🚢 Overview
+**VTS Global** is a professional logistics and infrastructure company specializing primarily in **Marine Transportation**, with additional services in **Land Transport Logistics** and **Construction & Building**.  
 
-**URL**: https://lovable.dev/projects/2eb2c0ec-ac70-45d2-8f47-32afec99313d
+This project showcases a responsive, visually engaging corporate website designed with a modern blue-themed UI and smooth animations to represent the brand’s oceanic identity.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🎨 Theme & Design
+- **Primary Focus:** Marine Transportation  
+- **Supporting Services:** Land Logistics & Construction  
+- **Color Palette:**
+  - `#42A5F5` – Deep Ocean Blue  
+  - `#FFFFFF` – White  
+  - `#87DCFF` – Sky Blue  
+  - `#A6F8FF` – Bright Aqua  
+  - `#C5FFFF` – Soft Cyan  
+  - `#E4FFFF` – Light Aqua Mist  
+- **Typography:** Modern, clean sans-serif fonts  
+- **Animations:**  
+  - Wave motion on the hero banner  
+  - Slide-in truck graphics for land logistics  
+  - Blueprint line animations for construction  
+  - Hover and scroll-based interactive transitions  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2eb2c0ec-ac70-45d2-8f47-32afec99313d) and start prompting.
+## ⚙️ Tech Stack
+Built using the latest web technologies for speed, maintainability, and design precision:
+- **React (TypeScript)** – Frontend framework  
+- **Vite** – Lightning-fast build tool  
+- **Tailwind CSS** – Utility-first styling  
+- **Shadcn/UI** – Prebuilt, accessible React components  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🧭 Features
+✅ Responsive design (desktop, tablet, mobile)  
+✅ Animated hero section with marine visuals  
+✅ Interactive service cards for all business units  
+✅ “Get Quote” button linking to an inquiry form  
+✅ SEO-optimized page structure  
+✅ Clean, minimal, and professional look  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🧩 Installation & Setup
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Prerequisites
+Make sure you have **Node.js** and **npm** installed.  
+You can install Node via [nvm](https://github.com/nvm-sh/nvm).
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Steps
+```bash
+# 1. Clone the repository
+git clone <YOUR_REPO_URL>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 2. Navigate to the project directory
+cd vts-global
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Would you like me to add a **preview section with screenshot placeholders** (like “📸 Preview of Home Page, Services Page, Get Quote Form”)? It’ll make your README look even more polished on GitHub.
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2eb2c0ec-ac70-45d2-8f47-32afec99313d) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📁 Folder Structure
