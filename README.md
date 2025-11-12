@@ -1,3 +1,39 @@
+# VTS Global - Wavefront
+
+Vite + React + TypeScript starter for the VTS Global marketing site. This repo contains the site used to showcase marine transport, land logistics, construction, fleet and quote functionality.
+
+## Development
+
+Requirements: Node.js (>=18 recommended) and npm or bun.
+
+Install deps and run dev server:
+
+```powershell
+npm install
+npm run dev
+```
+
+Build for production:
+
+```powershell
+npm run build
+```
+
+Preview build:
+
+```powershell
+npm run preview
+```
+
+## Notes
+- The site uses Tailwind CSS and Vite.
+- The navbar logo is served from `public/logo-vts.png` — replace that file to update the visible logo and favicon.
+
+## License
+Add a license file if you want to specify terms for the project.
+
+---
+Generated and pushed from local working copy.
 # 🌊 VTS Global — Marine & Logistics Website
 
 ## 🚢 Overview
