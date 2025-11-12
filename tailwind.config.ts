@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -57,6 +60,17 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        ocean: {
+          DEFAULT: "hsl(var(--ocean-blue))",
+          light: "hsl(var(--ocean-light))",
+          lighter: "hsl(var(--ocean-lighter))",
+          lightest: "hsl(var(--ocean-lightest))",
+          pale: "hsl(var(--ocean-pale))",
+        },
+      },
+      boxShadow: {
+        'ocean': '0 10px 40px -10px hsl(var(--primary) / 0.2)',
+        'card': '0 4px 20px -4px hsl(var(--primary) / 0.1)',
       },
       borderRadius: {
         lg: "var(--radius)",
