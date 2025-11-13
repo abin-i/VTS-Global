@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Ship } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import logoImage from "@/assets/logo-vts.png";
 import { cn } from "@/lib/utils";
 
 const Navbar = () => {
@@ -40,12 +41,12 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="bg-primary p-2 rounded-lg group-hover:scale-110 transition-transform">
-              <Ship className="h-6 w-6 text-primary-foreground" />
+            <div className="group-hover:scale-110 transition-transform flex items-center justify-center">
+              <img src={logoImage} alt="VTS Global" className="h-8 w-auto" />
             </div>
             <div>
               <div className="text-xl font-bold text-foreground">VTS Global</div>
-              <div className="text-xs text-muted-foreground">Marine Excellence</div>
+              {/* <div className="text-xs text-muted-foreground">Marine Excellence</div> */}
             </div>
           </Link>
 

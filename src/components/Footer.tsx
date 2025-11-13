@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Ship, Mail, Phone, MapPin, Linkedin, Twitter, Facebook } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook } from "lucide-react";
+import logoImage from "@/assets/logo-vts.png";
 
 const Footer = () => {
   const quickLinks = [
@@ -22,12 +23,10 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-3 group">
-              <div className="bg-primary p-2 rounded-lg">
-                <Ship className="h-6 w-6 text-primary-foreground" />
-              </div>
+              <img src={logoImage} alt="VTS Global" className="h-10 w-auto" />
               <div>
                 <div className="text-xl font-bold text-foreground">VTS Global</div>
-                <div className="text-xs text-muted-foreground">Marine Excellence</div>
+                {/* <div className="text-xs text-muted-foreground">Marine Excellence</div> */}
               </div>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">

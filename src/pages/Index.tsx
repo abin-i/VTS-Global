@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Ship, Truck, Building2, Clock, Shield, Globe, TrendingUp, ChevronRight } from "lucide-react";
 import heroImage from "@/assets/hero-ship.jpg";
+import logoImage from "@/assets/logo-vts.png";
 
 const Index = () => {
   const services = [
@@ -88,6 +89,7 @@ const Index = () => {
 
         {/* Hero Content */}
         <div className="relative z-10 container mx-auto px-4 text-center">
+          <img src={logoImage} alt="VTS Global" className="mx-auto h-20 w-auto mb-6" />
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
             Global Marine Transportation
             <br />
